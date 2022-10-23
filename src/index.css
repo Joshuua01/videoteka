@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+}
+
+@font-face {
+  font-family: "KronaOne";
+  src: url(./fonts/KronaOne-Regular.ttf);
+}
+@font-face {
+  font-family: "InterLight";
+  src: url(./fonts/Inter-Light.ttf);
+}
+@font-face {
+  font-family: "InterMedium";
+  src: url(./fonts/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: "InterBold";
+  src: url(./fonts/Inter-Bold.ttf);
+}
